@@ -5,7 +5,7 @@ app.set("view engine","ejs")
 app.get("/",(req,res)=>{
     res.render("index",{text :"world"})
 })
-
+//this is added by me 
 const userRouter = require("./routes/users")
 app.use("/users",userRouter)
 
