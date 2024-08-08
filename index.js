@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
 //utsav
 const userRouter = require("./routes/users")
 app.use("/users",userRouter)
-/meher
+
 let port = process.env.PORT || 3001
 app.listen(port,()=>{
     console.log("listening to port ",port)
